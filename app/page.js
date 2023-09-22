@@ -6,8 +6,12 @@ export default function Home() {
     <main>
       <h1>Hello World!</h1>
       <MyComp />
-      <Link href="aboutme">About Me</Link>
-      <Link href="contact">Contact</Link>
+      <ul>
+        <li><Link href="aboutme">About Me</Link></li>
+        <li><Link href="contact">Contact</Link></li>
+      </ul>
+      
+      
     </main>
   )
 }

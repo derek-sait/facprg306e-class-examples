@@ -1,4 +1,4 @@
-
+import Contact from "./contact"
 
 export default function ContactList(){
     var contact1 = {
@@ -33,6 +33,12 @@ export default function ContactList(){
     }
 
     return(
-
+        <div>
+            <Contact fname={contact1.fname} lname={contact1.lname} email={contact1.email} phone={contact1.phone} />
+            <Contact fname={contact2.fname} lname={contact2.lname} email={contact2.email} phone={contact2.phone} />
+            <Contact fname={contact3.fname} lname={contact3.lname} email={contact3.email} phone={contact3.phone} />
+            <Contact fname={contact4.fname} lname={contact4.lname} email={contact4.email} phone={contact4.phone} />
+            <Contact fname={contact5.fname} lname={contact5.lname} email={contact5.email} phone={contact5.phone} />
+        </div>
     )
 }
